@@ -13,6 +13,9 @@
 		4CF513241E0025F1000CCD27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF513221E0025F1000CCD27 /* Main.storyboard */; };
 		4CF513261E0025F1000CCD27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF513251E0025F1000CCD27 /* Assets.xcassets */; };
 		4CF513291E0025F1000CCD27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF513271E0025F1000CCD27 /* LaunchScreen.storyboard */; };
+		4CF513321E002875000CCD27 /* DMStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF513311E002875000CCD27 /* DMStudent.m */; };
+		4CF513351E002906000CCD27 /* DMDancer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF513341E002906000CCD27 /* DMDancer.m */; };
+		4CF513381E00297E000CCD27 /* DMDeveloper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF513371E00297E000CCD27 /* DMDeveloper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		4CF513251E0025F1000CCD27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CF513281E0025F1000CCD27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CF5132A1E0025F1000CCD27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF513301E002875000CCD27 /* DMStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMStudent.h; sourceTree = "<group>"; };
+		4CF513311E002875000CCD27 /* DMStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMStudent.m; sourceTree = "<group>"; };
+		4CF513331E002906000CCD27 /* DMDancer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMDancer.h; sourceTree = "<group>"; };
+		4CF513341E002906000CCD27 /* DMDancer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMDancer.m; sourceTree = "<group>"; };
+		4CF513361E00297E000CCD27 /* DMDeveloper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMDeveloper.h; sourceTree = "<group>"; };
+		4CF513371E00297E000CCD27 /* DMDeveloper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMDeveloper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				4CF513271E0025F1000CCD27 /* LaunchScreen.storyboard */,
 				4CF5132A1E0025F1000CCD27 /* Info.plist */,
 				4CF513191E0025F1000CCD27 /* Supporting Files */,
+				4CF513301E002875000CCD27 /* DMStudent.h */,
+				4CF513311E002875000CCD27 /* DMStudent.m */,
+				4CF513331E002906000CCD27 /* DMDancer.h */,
+				4CF513341E002906000CCD27 /* DMDancer.m */,
+				4CF513361E00297E000CCD27 /* DMDeveloper.h */,
+				4CF513371E00297E000CCD27 /* DMDeveloper.m */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -151,7 +166,10 @@
 			files = (
 				4CF513211E0025F1000CCD27 /* ViewController.m in Sources */,
 				4CF5131E1E0025F1000CCD27 /* AppDelegate.m in Sources */,
+				4CF513351E002906000CCD27 /* DMDancer.m in Sources */,
+				4CF513321E002875000CCD27 /* DMStudent.m in Sources */,
 				4CF5131B1E0025F1000CCD27 /* main.m in Sources */,
+				4CF513381E00297E000CCD27 /* DMDeveloper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
