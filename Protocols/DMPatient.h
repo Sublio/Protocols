@@ -10,6 +10,8 @@
 
 @protocol DMPatient
 
+@required
+
 
 @property(strong, nonatomic) NSString* name;
 

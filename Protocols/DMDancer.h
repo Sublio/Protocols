@@ -7,10 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DMPatient.h"
 
-@interface DMDancer : NSObject
+@interface DMDancer : NSObject <DMPatient>
 
 @property(strong, nonatomic)NSString* favouriteDance;
+@property (strong, nonatomic) NSString* name;
 
 -(void)dance;
 

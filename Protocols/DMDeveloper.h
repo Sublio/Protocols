@@ -8,11 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreGraphics/CoreGraphics.h>
+#import "DMPatient.h"
 
-@interface DMDeveloper : NSObject
+
+@interface DMDeveloper : NSObject<DMPatient>
 
 
 @property(assign, nonatomic) CGFloat experience;
+@property (strong, nonatomic) NSString* name;
 
 -(void)work;
 

@@ -18,4 +18,27 @@
     
 }
 
+
+#pragma mark - DMPatient interface
+
+-(BOOL)areYouOK{
+    
+    BOOL ok =arc4random() % 2;
+    
+    NSLog(@"Is developer %@ ok %@?", self.name, ok ? @"YES" : @"NO");
+    
+    return ok;
+}
+
+-(void)takePill{
+    
+    
+    NSLog(@"Developer %@ takes a pill", self.name);
+    
+}
+-(void)makeShot{
+    
+     NSLog(@"Developer %@ makes a shot", self.name);
+}
+
 @end

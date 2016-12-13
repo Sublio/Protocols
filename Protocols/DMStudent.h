@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DMPatient.h"
 
-@interface DMStudent : NSObject
+@interface DMStudent : NSObject <DMPatient>
 
 
 @property (strong, nonatomic) NSString* universityName;
+@property (strong, nonatomic) NSString* name;
+
 
 -(void)study;
 

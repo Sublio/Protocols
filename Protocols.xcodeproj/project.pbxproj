@@ -322,6 +322,7 @@
 				4CF5132F1E0025F1000CCD27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

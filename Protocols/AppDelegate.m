@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "DMPatient.h"
+#import "DMStudent.h"
+#import "DMDancer.h"
+#import "DMDeveloper.h"
 
 @interface AppDelegate ()
 
@@ -19,9 +23,39 @@
     
     
     
+    DMDancer* dancer1 = [[DMDancer alloc]init];
+    dancer1.name = @"Victor";
+    DMDancer* dancer2 = [[DMDancer alloc]init];
+    dancer2.name = @"Misha";
+    
+    DMStudent* student1 = [[DMStudent alloc]init];
+    student1.name = @"Vasiliy";
+    DMStudent* student2 = [[DMStudent alloc]init];
+    student2.name = @"Alex";
+    DMStudent* student3 = [[DMStudent alloc]init];
+    student3.name = @"Mick";
+    
+    DMDeveloper* developer1 = [[DMDeveloper alloc]init];
+    developer1.name = @"Takeshi";
+    
+    NSArray *patients = [NSArray arrayWithObjects:dancer1,dancer2,student1,developer1,student2,student3,nil];
     
     
-    
+    for (id <DMPatient> patient in patients){
+        
+        NSLog(@"Patient name = %@", patient.name);
+        
+        if (![patient areYouOK]){
+            
+            [patient takePill];
+            
+            if (![patient areYouOK]){
+                
+                [patient makeShot];
+            }
+        }
+        
+    }
     
     
     return YES;
