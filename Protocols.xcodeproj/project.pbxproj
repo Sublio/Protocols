@@ -35,6 +35,7 @@
 		4CF513341E002906000CCD27 /* DMDancer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMDancer.m; sourceTree = "<group>"; };
 		4CF513361E00297E000CCD27 /* DMDeveloper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMDeveloper.h; sourceTree = "<group>"; };
 		4CF513371E00297E000CCD27 /* DMDeveloper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMDeveloper.m; sourceTree = "<group>"; };
+		4CF513391E002B54000CCD27 /* DMPatient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMPatient.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 				4CF513341E002906000CCD27 /* DMDancer.m */,
 				4CF513361E00297E000CCD27 /* DMDeveloper.h */,
 				4CF513371E00297E000CCD27 /* DMDeveloper.m */,
+				4CF513391E002B54000CCD27 /* DMPatient.h */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
