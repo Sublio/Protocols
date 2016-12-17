@@ -38,10 +38,16 @@
     DMDeveloper* developer1 = [[DMDeveloper alloc]init];
     developer1.name = @"Takeshi";
     
-    NSArray *patients = [NSArray arrayWithObjects:dancer1,dancer2,student1,developer1,student2,student3,nil];
+    NSObject* fakeObject = [[NSObject alloc]init];
+    
+    
+    NSArray *patients = [NSArray arrayWithObjects:fakeObject,dancer1,dancer2,student1,developer1,student2,student3,nil];
     
     
     for (id <DMPatient> patient in patients){
+        
+        
+        if ([patient conformsToProtocol:@protocol(DMPatient)]){
         
         NSLog(@"Patient name = %@", patient.name);
         
@@ -64,9 +70,13 @@
             if (![patient areYouOK]){
                 
                 [patient makeShot];
+                }
             }
-        }
         
+        }else {
+            
+            NSLog(@"Fake object detected");
+        }
     }
     
     
