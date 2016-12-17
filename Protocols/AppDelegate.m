@@ -45,6 +45,18 @@
         
         NSLog(@"Patient name = %@", patient.name);
         
+        if ([patient respondsToSelector:@selector(howIsYourFamily)]){
+            
+            NSLog(@"How is your family? \n%@",[patient howIsYourFamily] );
+            
+        }
+        
+        if ([patient respondsToSelector:@selector(howIsYourJob)]){
+            
+            
+            NSLog(@"How is your family? \n%@",[patient howIsYourJob] );
+        }
+        
         if (![patient areYouOK]){
             
             [patient takePill];

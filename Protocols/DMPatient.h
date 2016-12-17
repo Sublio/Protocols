@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol DMPatient
+@protocol DMPatient<NSObject>
 
 @required
 
@@ -19,6 +19,9 @@
 -(void)takePill;
 -(void)makeShot;
 
+@optional
 
+-(NSString*)howIsYourFamily;
+-(NSString*)howIsYourJob;
 
 @end

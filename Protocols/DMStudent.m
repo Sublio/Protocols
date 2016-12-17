@@ -41,4 +41,9 @@
 }
 
 
+-(NSString*)howIsYourFamily{
+    
+    return @"My family is doing well";
+}
+
 @end

@@ -41,4 +41,10 @@
      NSLog(@"Developer %@ makes a shot", self.name);
 }
 
+-(NSString*)howIsYourJob{
+    
+    
+    return @"My job is awesome!";
+}
+
 @end
